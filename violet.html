@@ -1,0 +1,102 @@
+<html>
+<head>
+  <script>
+
+function clicked(color) {
+  document.body.classList = color;
+}
+
+  </script>
+<style>
+
+.kittenCup {
+  background-image: url('https://www.petwellbeing.com/blog/wp-content/uploads/teacup-kittens.jpg');
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.violetName {
+  font-size: 30px;
+  color: lightblue;
+}
+.jillianName {
+  font-size: 30px;
+  color: orange;
+}
+.billyName {
+  font-size: 30px;
+  color: green;
+}
+.catAnnouncement {
+  font-size: 100px;
+  color: brown;
+}
+.cat {
+  font-size: 30px;
+  color: brown;
+}
+</style>
+
+</head>
+<body class="blue">
+  <button onclick='clicked("blue")' type='button'>blue</button>
+  <button onclick='clicked("pink")' type='button'>pink</button>
+  <button onclick='clicked("lightgreen")' type='button'>lightgreen</button>
+  <button onclick='clicked("kittenCup")' type='button'>kittenCup</button>
+
+  <h1>hello there!</h1>
+  <p>My name is <span class='violetName'>Violet</span>.</p>
+  <table >
+    <tr>
+      <td>
+      <img src="violet.jpg">
+      </td>
+      <caption>ME</caption>
+    </tr>
+  </table>
+
+  <p>My mom's name is <span class='jillianName'>Jillian</span>.</p>
+  
+  <table >
+    <tr>
+      <td>
+      <img src="jillian.jpg" width=300 height=200>
+      </td>
+      <caption>Jilian</caption>
+    </tr>
+  </table>
+
+  </p>
+  <p>Her boyfriend's name is <span class='billyName'>Billy</span>.</p>
+
+  <table>
+    <tr>
+      <td>
+        <img src="photo.jpg" width=300 height=200>
+      </td>
+      <caption>Violet and billy</caption>
+    </tr>
+  </table>
+
+  <p class="catAnnouncement">I love cats!</p>
+  <p class="cat"> Especially the smush-faced ones.</p>
+
+  <p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/slGuiRZ-yXY"
+                                   allow="encrypted-media"></iframe></p>
+
+
+</body>
+</html>
